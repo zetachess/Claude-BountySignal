@@ -1,6 +1,6 @@
 # Claude-BountySignal
 
-![Claude-BountySignal hero banner](assets/claude-bountysignal-hero.png)
+![Claude-BountySignal cyber rocket banner](assets/claude-bountysignal-hero-rocket.png)
 
 > Evidence-first authentication and authorization research for Claude Code.
 
