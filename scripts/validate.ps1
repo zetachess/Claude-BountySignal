@@ -17,6 +17,7 @@ $required = @(
     'CONTRIBUTING.md',
     'CHANGELOG.md',
     'assets/claude-bountysignal-hero.png',
+    'assets/claude-bountysignal-hero-rocket.png',
     'skills/hunt-auth-bypass/SKILL.md',
     'commands/auth-audit.md',
     'commands/auth-validate.md',
