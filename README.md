@@ -143,6 +143,24 @@ These cases are designed to test reasoning and safety boundaries, not to target 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
+## Landing Page
+
+The repository includes a static product landing page in [`site/`](site/), designed for deployment on Vercel.
+
+### Local preview
+
+```powershell
+python -m http.server 4173 --directory site
+```
+
+Open `http://127.0.0.1:4173` in a browser.
+
+### Vercel deployment
+
+Import this repository into Vercel. The included [`vercel.json`](vercel.json) configures `site/` as the deployment output directory, so no framework build step is required.
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
 ## Roadmap
 
 - Expand session, OAuth/OIDC, JWT, and MFA review patterns.
