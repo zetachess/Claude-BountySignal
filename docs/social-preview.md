@@ -12,6 +12,6 @@ Evidence-first authentication and authorization research for authorized bug boun
 
 A Claude Code plugin for finding, validating, and reporting authentication and authorization bypasses without losing scope, evidence quality, or remediation clarity.
 
-## Disclosure
+## Product note
 
-Unofficial project. Not affiliated with, endorsed by, or sponsored by Anthropic.
+Built for Claude Code. Not an official Anthropic product.
