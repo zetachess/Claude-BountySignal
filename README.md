@@ -10,8 +10,6 @@ Claude-BountySignal is a Claude Code plugin for authorized bug bounty research. 
 
 The primary skill is `hunt-auth-bypass`.
 
-> Unofficial project. Not affiliated with, endorsed by, or sponsored by Anthropic.
-
 ## Why this project exists
 
 Security testing often fails at the handoff between “something looks wrong” and “this is a defensible finding.” Claude-BountySignal keeps that handoff explicit:
@@ -141,6 +139,8 @@ Version `0.1.0` is the initial focused release. The project is experimental and 
 ## Contributing
 
 Read [CONTRIBUTING.md](CONTRIBUTING.md) before opening a change. New checks should explain their preconditions, safe validation approach, evidence requirements, and remediation direction.
+
+> Built for Claude Code. Not an official Anthropic product.
 
 ## License
 
