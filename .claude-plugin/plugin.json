@@ -1,0 +1,19 @@
+{
+  "name": "claude-bountysignal",
+  "displayName": "Claude-BountySignal",
+  "version": "0.1.0",
+  "description": "An independent Claude Code plugin for authorized auth-bypass research, evidence validation, and bug bounty reporting.",
+  "author": {
+    "name": "Claude-BountySignal Contributors"
+  },
+  "license": "MIT",
+  "keywords": [
+    "application-security",
+    "authentication",
+    "authorization",
+    "bug-bounty",
+    "security-testing",
+    "claude-code",
+    "claude-skills"
+  ]
+}

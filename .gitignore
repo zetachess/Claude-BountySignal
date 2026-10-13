@@ -1,0 +1,25 @@
+# Local engagement material
+engagements/
+targets/
+evidence/
+*.har
+*.pcap
+*.session
+
+# Secrets and local environment files
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*.kdbx
+
+# Tooling and operating-system noise
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+node_modules/
+dist/
+coverage/
