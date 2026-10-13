@@ -49,6 +49,8 @@ scope → map identity → form hypothesis → validate safely → preserve evid
 
 The project is not a general-purpose scanner. It focuses on reasoning, controlled comparisons, evidence quality, and false-positive reduction.
 
+The companion [landing page source](site/index.html) contains the project's visual presentation and can be deployed as a static site.
+
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## What It Covers
