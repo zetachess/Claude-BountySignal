@@ -2,7 +2,7 @@
 
 <div align="center">
   <a href="https://github.com/zetachess/Claude-BountySignal">
-    <img src="assets/claude-bountysignal-hero-rocket.png" alt="Claude-BountySignal cyber rocket banner">
+    <img src="assets/claude-bountysignal-landing.png" alt="Claude-BountySignal landing page preview">
   </a>
 
   <h1>Claude-BountySignal</h1>
