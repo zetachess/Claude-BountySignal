@@ -1,0 +1,105 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#0a090c" />
+    <meta name="description" content="Claude-BountySignal — evidence-first authentication and authorization research for Claude Code." />
+    <title>Claude-BountySignal // Auth bypass research</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=IBM+Plex+Mono:wght@400;500;600&family=Syne:wght@600;700;800&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="noise" aria-hidden="true"></div>
+    <header class="site-header">
+      <a class="brand" href="#top" aria-label="Claude-BountySignal home">
+        <span class="brand-mark" aria-hidden="true"><i></i><i></i><i></i></span>
+        <span>CLAUDE<span class="brand-slash">/</span>BOUNTYSIGNAL</span>
+      </a>
+      <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="site-nav">Menu <span>+</span></button>
+      <nav id="site-nav" class="site-nav" aria-label="Primary navigation">
+        <a href="#method">Method</a>
+        <a href="#coverage">Coverage</a>
+        <a href="#commands">Commands</a>
+        <a class="nav-github" href="https://github.com/zetachess/Claude-BountySignal" target="_blank" rel="noreferrer">GitHub <span>↗</span></a>
+      </nav>
+    </header>
+
+    <main id="top">
+      <section class="hero section-shell">
+        <div class="hero-copy reveal">
+          <p class="eyebrow"><span class="pulse-dot"></span> AUTHORIZED RESEARCH KIT <b>///</b> v0.1.0</p>
+          <h1>Find the break<br />in the <em>gate.</em></h1>
+          <p class="hero-lede">An evidence-first Claude Code plugin for testing authentication and authorization boundaries — then turning the signal into a report people can reproduce.</p>
+          <div class="hero-actions">
+            <a class="button button-primary" href="https://github.com/zetachess/Claude-BountySignal" target="_blank" rel="noreferrer">Explore the repo <span>↗</span></a>
+            <a class="text-link" href="#method">See the method <span>↓</span></a>
+          </div>
+          <div class="hero-meta">
+            <span><b>01</b> scope before signal</span>
+            <span><b>02</b> proof before severity</span>
+          </div>
+        </div>
+
+        <div class="hero-console reveal reveal-delay" aria-label="BountySignal validation console">
+          <div class="console-topline"><span>BOUNTYSIGNAL / LIVE PROTOCOL</span><span class="console-status"><i></i> READY</span></div>
+          <div class="console-screen">
+            <div class="scanline"></div>
+            <div class="console-orbit orbit-one"></div>
+            <div class="console-orbit orbit-two"></div>
+            <div class="console-crosshair"><span></span></div>
+            <div class="console-readout"><small>SIGNAL CLASS</small><strong>AUTH.BYPASS</strong><span>confidence // awaiting evidence</span></div>
+            <div class="console-grid-label top-left">NODE_07<br /><span>IDENTITY SURFACE</span></div>
+            <div class="console-grid-label bottom-right">RED TEAM / WAPT<br /><span>AUTHORIZED ONLY</span></div>
+          </div>
+          <div class="console-command"><span class="prompt">$</span><span>/auth-audit</span><span class="command-muted">target --mode=bounded</span><span class="cursor"></span></div>
+          <div class="console-footer"><span>SESSION 0007</span><span>ENCRYPTED LOCAL NOTES</span><span>↗</span></div>
+        </div>
+      </section>
+
+      <div class="signal-strip" aria-label="Workflow">
+        <div><span>01</span> SCOPE</div><b>+</b><div><span>02</span> VALIDATE</div><b>+</b><div><span>03</span> REPORT</div><b>+</b><div class="strip-end">NOISE ↓ / SIGNAL ↑</div>
+      </div>
+
+      <section id="method" class="method section-shell section-block">
+        <div class="section-heading reveal"><p class="eyebrow">THE OPERATING MODEL</p><h2>Every finding<br /><em>earns its weight.</em></h2></div>
+        <div class="method-intro reveal"><p>A suspicious response is a starting point, not a conclusion. BountySignal gives Claude a disciplined loop for mapping identity, testing a controlled hypothesis, and preserving only the evidence that matters.</p><a class="arrow-link" href="https://github.com/zetachess/Claude-BountySignal/blob/main/skills/hunt-auth-bypass/SKILL.md" target="_blank" rel="noreferrer">Read the skill <span>↗</span></a></div>
+        <div class="method-grid">
+          <article class="method-card reveal"><div class="card-index">01 / 03</div><div class="card-icon icon-scope">⌁</div><h3>Scope the surface</h3><p>Separate authentication, session integrity, and authorization before a request is made.</p><span class="card-tail">MAP / COMPARE / BOUND</span></article>
+          <article class="method-card card-featured reveal reveal-delay"><div class="card-index">02 / 03</div><div class="card-icon icon-validate">◉</div><h3>Validate the break</h3><p>Use authorized identities and reversible checks to turn an anomaly into a reproducible result.</p><span class="card-tail">CONTROL / REPEAT / PROVE</span></article>
+          <article class="method-card reveal reveal-delay-2"><div class="card-index">03 / 03</div><div class="card-icon icon-report">▤</div><h3>Report the signal</h3><p>Give the next person the exact preconditions, evidence, impact, and remediation path.</p><span class="card-tail">REDACT / EXPLAIN / SHIP</span></article>
+        </div>
+      </section>
+
+      <section id="coverage" class="coverage section-shell section-block">
+        <div class="coverage-heading reveal"><p class="eyebrow">THE COVERAGE MAP</p><h2>Built for the<br /><span>identity surface.</span></h2></div>
+        <div class="coverage-list">
+          <div class="coverage-row reveal"><span class="coverage-number">A / 01</span><h3>Authentication</h3><p>Login, logout, registration, recovery and MFA checkpoints.</p><span class="row-arrow">↗</span></div>
+          <div class="coverage-row reveal"><span class="coverage-number">S / 02</span><h3>Session integrity</h3><p>Cookies, expiry, revocation, refresh and privilege changes.</p><span class="row-arrow">↗</span></div>
+          <div class="coverage-row reveal"><span class="coverage-number">Z / 03</span><h3>Authorization</h3><p>Roles, tenants, objects, protected routes and IDOR/BOLA hypotheses.</p><span class="row-arrow">↗</span></div>
+          <div class="coverage-row reveal"><span class="coverage-number">E / 04</span><h3>Evidence quality</h3><p>Redacted proof, false-positive gates and triager-ready reporting.</p><span class="row-arrow">↗</span></div>
+        </div>
+      </section>
+
+      <section id="commands" class="commands section-shell section-block">
+        <div class="commands-panel reveal">
+          <div class="panel-header"><p class="eyebrow">THREE COMMANDS / ONE CLEAN HANDOFF</p><span>CLAUDE CODE PLUGIN</span></div>
+          <div class="command-row"><span class="command-num">01</span><code>/auth-audit</code><p>Build a bounded identity, role, and session review plan.</p></div>
+          <div class="command-row"><span class="command-num">02</span><code>/auth-validate</code><p>Separate facts from assumptions and assign a defensible status.</p></div>
+          <div class="command-row"><span class="command-num">03</span><code>/auth-report</code><p>Draft a concise report with steps, evidence, impact, and remediation.</p></div>
+          <div class="panel-footer"><span>NO PRIVATE DATA REQUIRED</span><span>AUTHORIZED LABS / OWNED ASSETS</span></div>
+        </div>
+        <aside class="cta-card reveal reveal-delay"><p class="eyebrow">READY WHEN YOU ARE</p><h2>Put the signal<br /><em>on record.</em></h2><p>Start with the skill, bring your scope, and let the evidence decide the weight.</p><a class="button button-primary" href="https://github.com/zetachess/Claude-BountySignal" target="_blank" rel="noreferrer">Open Claude-BountySignal <span>↗</span></a></aside>
+      </section>
+    </main>
+
+    <footer class="site-footer section-shell">
+      <div class="footer-brand"><span class="brand-mark" aria-hidden="true"><i></i><i></i><i></i></span><span>CLAUDE<span class="brand-slash">/</span>BOUNTYSIGNAL</span></div>
+      <p>Evidence first. Scope always.</p>
+      <div class="footer-links"><a href="https://github.com/zetachess/Claude-BountySignal" target="_blank" rel="noreferrer">GitHub ↗</a><a href="https://github.com/zetachess/Claude-BountySignal/blob/main/SECURITY.md" target="_blank" rel="noreferrer">Security ↗</a><span>© <span id="year"></span></span></div>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>
