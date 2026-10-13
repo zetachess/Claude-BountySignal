@@ -10,8 +10,8 @@ Evidence-first authentication and authorization research for authorized bug boun
 
 ## Short description
 
-An independent Claude Code plugin for finding, validating, and reporting authentication and authorization bypasses without losing scope, evidence quality, or remediation clarity.
+A Claude Code plugin for finding, validating, and reporting authentication and authorization bypasses without losing scope, evidence quality, or remediation clarity.
 
 ## Disclosure
 
-Claude-BountySignal is an independent community project and is not affiliated with, endorsed by, or sponsored by Anthropic.
+Unofficial project. Not affiliated with, endorsed by, or sponsored by Anthropic.
