@@ -1,5 +1,7 @@
 # Claude-BountySignal
 
+![Claude-BountySignal hero banner](assets/claude-bountysignal-hero.png)
+
 > Evidence-first authentication and authorization research for Claude Code.
 
 [![Version](https://img.shields.io/badge/version-0.1.0-2563eb.svg)](CHANGELOG.md)
